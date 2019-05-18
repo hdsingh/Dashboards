@@ -29,5 +29,9 @@ sources:
       xarray_kwargs:
         decode_times: False
 
-        
-  
+  Grib_thredds:
+    description: Publicly available grib data available on thredds via opendap protocol
+    driver: netcdf
+    args:
+      urlpath: 'http://thredds.ucar.edu/thredds/dodsC/grib/FNMOC/WW3/Global_1p0deg/Best'
+      chunks: {}
