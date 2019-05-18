@@ -1,0 +1,16 @@
+name: dashboard_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cartopy
+  - xarray
+  - netcdf4
+  - intake
+  - intake-xarray
+  - bokeh  
+  - datashader
+  - holoviews  
+  - geoviews
+  - hvplot  
+  - panel
