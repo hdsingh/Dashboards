@@ -1,0 +1,5 @@
+<h1> Hello </h1> 
+
+{% for person in persons %} 
+    <li> {{ person.name }} {{ person.age }} </li> 
+{% endfor %} 
